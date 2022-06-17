@@ -49,4 +49,5 @@ func Setup(app *fiber.App) {
 	//Order	Routes
 	app.Get("/api/orders", controllers.AllOrders)
 	app.Post("/api/export", controllers.Export)
+	app.Get("/api/chart", controllers.Chart)
 }
